@@ -1,31 +1,3 @@
-// def calculateSquare():List[Int] = {
-//     var emptyList = List.empty[Int]
-//     var newList  = List.empty[Int]
-    
-//     var continue = true
-
-//     println("Enter the numbers(Enter '0' to finish)")
-//     while(continue){
-        
-//         var input = scala.io.StdIn.readInt()
-//         if(input == 0) {
-//             continue = false  
-//         } else {
-//             emptyList = emptyList:+input
-//         }
-        
-//     }
-//     newList = emptyList.map(num => num * num)
-//     newList
-
-// }
-
-// @main def ls7q1() = {
-//     val numbers = calculateSquare()
-//     println("Even numbers: ")
-//     print(numbers)
-// }
-
 def calculateSquare():List[Int] = {
     var emptyList = List.empty[Int]
     var newList  = List.empty[Int]
